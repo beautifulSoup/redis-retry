@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>redis-retry-lib</artifactId>
+  <artifactId>redis-retry-core</artifactId>
 
 
   <dependencies>
@@ -43,4 +43,8 @@
       <version>2.8.1</version>
     </dependency>
   </dependencies>
+
+
+
+
 </project>

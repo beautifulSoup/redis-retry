@@ -21,9 +21,41 @@
     </plugins>
   </build>
   <modules>
-    <module>redis-retry-lib</module>
+    <module>redis-retry-core</module>
     <module>redis-retry-spring-boot-starter</module>
   </modules>
+
+
+  <developers>
+    <developer>
+      <name>Likang Tang</name>
+      <email>tanglikang@163.com</email>
+      <organization>Tango</organization>
+      <url>https://github.com/beautifulSoup/redis-retry</url>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>https://github.com/beautifulSoup/redis-retry.git</connection>
+    <developerConnection>https://github.com/beautifulSoup/redis-retry.git</developerConnection>
+    <url>https://github.com/beautifulSoup/redis-retry.git</url>
+    <tag>1.0</tag>
+  </scm>
+  <distributionManagement>
+    <snapshotRepository>
+
+      <id>oss</id>
+      <name>OSS Snapshots Repository</name>
+
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>oss</id>
+      <name>OSS Staging Repository</name>
+
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
 
 
 
