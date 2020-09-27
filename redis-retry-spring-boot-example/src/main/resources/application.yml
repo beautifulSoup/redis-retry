@@ -1,0 +1,3 @@
+# 应用名称
+spring.application.name: redis-retry-spring-boot-example
+
