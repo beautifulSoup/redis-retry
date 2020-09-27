@@ -5,13 +5,13 @@
   <parent>
     <artifactId>redis-retry</artifactId>
     <groupId>com.tangokk</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.RELEASE</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.tangokk</groupId>
   <artifactId>redis-retry-spring-boot-starter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.RELEASE</version>
 
   <dependencies>
     <dependency>
@@ -21,7 +21,7 @@
     <dependency>
       <groupId>com.tangokk</groupId>
       <artifactId>redis-retry-core</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.RELEASE</version>
     </dependency>
 
   </dependencies>
