@@ -9,9 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.tangokk</groupId>
   <artifactId>redis-retry-spring-boot-starter</artifactId>
-  <version>1.0.RELEASE</version>
 
   <dependencies>
     <dependency>
